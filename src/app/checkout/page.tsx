@@ -69,10 +69,6 @@ const Checkout = () => {
                       {...(register('email'),
                       {
                         required: true,
-                        pattern: {
-                          value: '/^[w-.]+@([w-]+.)+[w-]{2,4}$/g',
-                          message: 'Wrong format',
-                        },
                       })}
                     />
                   </div>
